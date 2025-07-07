@@ -95,7 +95,7 @@ export default function UserListPage() {
                   <TableHead>Email</TableHead>
                   <TableHead>Phone</TableHead>
                   <TableHead>Department</TableHead>
-                  <TableHead>isActive</TableHead>
+                  <TableHead>Active</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
