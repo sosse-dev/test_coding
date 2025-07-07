@@ -1,10 +1,10 @@
-# 🧑‍💼 Aplikasi Manajemen Pengguna
+# 🧩 Aplikasi Manajemen Pengguna
 
 Sebuah sistem manajemen pengguna full-stack yang dibangun menggunakan **React + Express**, dengan dukungan **TypeScript**, **MySQL**, **Drizzle ORM**, serta teknologi modern seperti **Zod**, **React Hook Form**, **ShadCN UI**, dan **TailwindCSS**.
 
 ---
 
-## 🚀 Fitur
+## ✨ Fitur
 
 ### ✅ Frontend (React)
 - Dibuat menggunakan **Vite + TypeScript**
