@@ -13,3 +13,5 @@ app.use("/users", userRouter); // ingat routenya /users
 app.listen(PORT, () => {
   // console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app
