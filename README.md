@@ -27,6 +27,13 @@ Sebuah sistem manajemen pengguna full-stack yang dibangun menggunakan **React + 
 ## 🛠️ Pengembangan Lokal
 
 ### ⚙️ Prasyarat
+
+### 📁 Struktur Proyek
+```
+.
+├── client/        # Frontend React (Vite + Tailwind + ShadCN)
+├── server/        # Backend Express (TypeScript + Drizzle ORM)
+```
 - Node.js (versi 18 atau lebih tinggi)
 - MySQL (berjalan secara lokal atau remote)
 - [Vercel CLI](https://vercel.com/docs/cli) (opsional, untuk proses deployment)
