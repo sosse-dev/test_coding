@@ -43,11 +43,11 @@ Sebuah sistem manajemen pengguna full-stack yang dibangun menggunakan **React + 
 ### 📦 Install Dependencies
 
 ```
-# Backend
+(Server)
 cd server
 npm install
 
-# Frontend
+(Client)
 cd client
 npm install
 ```
@@ -65,16 +65,24 @@ VITE_API_URL=
 
 ### 🧪 Menjalankan Secara Lokal
 ```
-# Backend
+(Server)
 cd server
 npm run dev
 
-# Frontend
+(Client)
 cd client
 npm run dev
 ```
-Frontend berjalan di http://localhost:5173
+Frontend berjalan di http://localhost:5173  
 Backend API di http://localhost:3000
+
+### 🌐 Deployment (Vercel)
+```
+📦 Langkah-langkah
+1. Push ke GitHub
+2. Frontend: langsung deploy folder /client ke Vercel (dengan tambahan file vercel.json)
+3. Backend: https://vercel.com/guides/using-express-with-vercel
+```
 
 ### 📡 API Documentation
 | Method | Endpoint           | Description   |
