@@ -55,7 +55,7 @@ export default function AddUserPages() {
         email: data.email,
         phone: data.phone,
         department: data.department,
-        isActive: "active"
+        status: true
       })
 
       reset() // pindah diatas api.post untuk keamanan, meski UX kurang

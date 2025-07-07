@@ -23,7 +23,7 @@ type User = {
   email: string;
   phone: string;
   department: string;
-  isActive: "active" | "inactive";
+  status: boolean;
 };
 
 export default function UserListPage() {
@@ -95,7 +95,7 @@ export default function UserListPage() {
                   <TableHead>Email</TableHead>
                   <TableHead>Phone</TableHead>
                   <TableHead>Department</TableHead>
-                  <TableHead>Active</TableHead>
+                  <TableHead>Status</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -108,12 +108,12 @@ export default function UserListPage() {
                     <TableCell>
                       <span
                         className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                          user.isActive === "active"
+                          user.status
                             ? "bg-green-100 text-green-800"
                             : "bg-gray-100 text-gray-800"
                         }`}
                       >
-                        {user.isActive}
+                        {user.status ? "active" : "inactive"}
                       </span>
                     </TableCell>
                   </TableRow>
