@@ -10,8 +10,8 @@ app.use(cors())
 app.use(express.json());
 app.use("/users", userRouter); // ingat routenya /users
 
-app.listen(PORT, () => {
-  // console.log(`Server is running on port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   // console.log(`Server is running on port ${PORT}`);
+// });
 
-module.exports = app
+export default app
