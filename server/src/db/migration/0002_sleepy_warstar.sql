@@ -1,1 +1,0 @@
-ALTER TABLE `users` ADD `department` varchar(50) NOT NULL;

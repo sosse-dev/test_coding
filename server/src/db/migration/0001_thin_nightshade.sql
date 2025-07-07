@@ -1,1 +1,0 @@
-ALTER TABLE `users` ADD `phone` varchar(15) NOT NULL;

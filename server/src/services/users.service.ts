@@ -5,7 +5,7 @@ import { users } from "../db/schema";
 type UserInput = {
   name: string;
   email: string;
-  isActive: "active" | "inactive";
+  status: boolean;
   phone: string;
   department: string;
 };

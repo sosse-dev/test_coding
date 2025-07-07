@@ -1,15 +1,15 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "d254ab09-0394-4056-bfa1-04a54ec371a5",
-  "prevId": "387a6f7d-e861-4c03-b602-8dfe213d6030",
+  "id": "fb39e077-f4df-4925-b4ff-75fc1b1705d5",
+  "prevId": "c3c75d37-52bf-4c5c-90ce-78f71e5ad023",
   "tables": {
     "users": {
       "name": "users",
       "columns": {
         "id": {
           "name": "id",
-          "type": "serial",
+          "type": "bigint",
           "primaryKey": false,
           "notNull": true,
           "autoincrement": true
@@ -37,11 +37,18 @@
         },
         "status": {
           "name": "status",
-          "type": "enum('active','inactive')",
+          "type": "boolean",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
-          "default": "'inactive'"
+          "default": false
+        },
+        "department": {
+          "name": "department",
+          "type": "varchar(50)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
         },
         "created_at": {
           "name": "created_at",

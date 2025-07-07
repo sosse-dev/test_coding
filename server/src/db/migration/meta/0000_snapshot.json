@@ -28,8 +28,8 @@
           "notNull": true,
           "autoincrement": false
         },
-        "isActive": {
-          "name": "isActive",
+        "status": {
+          "name": "status",
           "type": "enum('active','inactive')",
           "primaryKey": false,
           "notNull": false,
